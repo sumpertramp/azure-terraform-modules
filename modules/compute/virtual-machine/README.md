@@ -109,25 +109,29 @@ module "vm" {
 
 ## Input Variables
 
-vm_name        : Name of the virtual machine (required)
-location       : Azure region (required)
-vm_size        : Azure VM size (required)
-os_type        : linux or windows (required)
-admin_username : Admin username (required)
-ssh_public_key : SSH public key (Linux only)
-admin_password : Admin password (Windows only)
-tags            : Resource tags (optional)
+| Variable | Description |
+|--------|-------------|
+| `vm_name` | Name of the virtual machine (required) |
+| `location` | Azure region (required) |
+| `vm_size` | Azure VM size (required) |
+| `os_type` | linux or windows (required) |
+| `admin_username` | Admin username (required) |
+| `ssh_public_key` | SSH public key (Linux only) |
+| `admin_password` | Admin password (Windows only) |
+| `tags` | Resource tags (optional) |
 
 ---
 
 ## Outputs
 
-vm_id                : ID of the created virtual machine
-vm_name              : Name of the VM
-private_ip           : Private IP address
-resource_group_name  : Resource group name
-location             : Azure region
-os_type              : Selected operating system
+| Output | Description |
+|------|-------------|
+| `vm_id` | ID of the created virtual machine |
+| `vm_name` | Name of the VM |
+| `private_ip` | Private IP address |
+| `resource_group_name` | Resource group name |
+| `location` | Azure region |
+| `os_type` | Selected operating system |
 
 ---
 
