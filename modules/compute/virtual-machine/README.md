@@ -163,14 +163,5 @@ module "vm" {
 
 ---
 
-## Future Improvements
-
-- Azure Storage backend configuration
-- Azure DevOps CI/CD pipeline examples
-- Azure Key Vault integration
-- Optional Public IP or Azure Bastion support
-
----
-
 ## Author
 Sümeyye Ünal
