@@ -66,7 +66,7 @@ azure-terraform-modules/
 ## Example Usage
 
 ### Linux Virtual Machine
-
+```hcl
 module "vm" {
   source = "../../modules/compute/virtual-machine"
 
@@ -83,11 +83,11 @@ module "vm" {
     os          = "linux"
   }
 }
-
+```
 ---
 
 ### Windows Virtual Machine
-
+```hcl
 module "vm" {
   source = "../../modules/compute/virtual-machine"
 
@@ -104,7 +104,7 @@ module "vm" {
     os          = "windows"
   }
 }
-
+```
 ---
 
 ## Input Variables
