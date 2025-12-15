@@ -173,6 +173,4 @@ module "vm" {
 ---
 
 ## Author
-
-DevOps Engineer  
-Terraform | Azure | CI/CD
+Sümeyye Ünal
