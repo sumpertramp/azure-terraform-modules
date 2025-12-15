@@ -46,8 +46,8 @@ This Terraform module provides:
 ---
 
 ## Repository Structure
-
-terraform-azure-modules/
+```text
+azure-terraform-modules/
 ├── modules/
 │   └── compute/
 │       └── virtual-machine/
@@ -61,8 +61,7 @@ terraform-azure-modules/
 │   │   └── main.tf
 │   └── windows-vm/
 │       └── main.tf
-
----
+```
 
 ## Example Usage
 
